@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1>Belajar Form</h1>
+    <link rel="stylesheet" href="style.css" />
+    <h1 align="center">Belajar Form</h1>
     </head>
     <body>
+        <div class="container">
         <form action="login.php" method="post">
             <fieldset>
-                <legend>Form</legend>
+                <legend align="center">Formulir Mahasiswa</legend>
                 <p>
                 <label>Nama:</label>
                 <input type="text" name="Nama" placeholder="Nama..."/>
@@ -15,7 +17,12 @@
                 <label>NIM:</label>
                 <input type="text" name="NIM" placeholder="NIM..."/>
                 </p>
+                <p>
+                <label>Prodi:</label>
+                <input type="text" name="Prodi" placeholder="Prodi..."/>
+                </p>
             </fieldset>
         </form>
+        </div>
     </body>
 </html>
